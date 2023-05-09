@@ -1,0 +1,47 @@
+#more_article {
+	article {
+		padding: 15px;
+		line-height: 24px;
+		font-size: 14px;
+		text-align: justify;
+		min-height: 500px;
+		position: relative;
+		margin-bottom: 20px;
+		h3 {
+			font-size: 18px;
+			font-weight: bold;
+			font-family: casa;
+		}
+		p {
+			padding-bottom: 50px;
+		}
+		a.more {
+			text-align: center;
+			display: block;
+			margin: 10px 0;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			background: none;
+			border: 0;
+			padding: 0;
+		}
+		.imgwrap {
+			border: 1px solid @c;
+			padding: 0;
+			.br(2px);
+			margin: 5px 0;
+			position: relative;
+			&:before {
+				content: "";
+				.size(100%);
+				position: absolute;
+				left: 0;
+				top: 0;
+				border: 8px solid white;
+				box-sizing: border-box;
+			}
+		}
+	}
+}

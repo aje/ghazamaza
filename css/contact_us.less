@@ -1,0 +1,127 @@
+#contact_form_page {
+	button {
+		background-color: transparent;
+		border: 0;
+	}
+	fieldset {
+		border: 0;
+		margin: 0;
+		padding: 0;
+	}
+
+	textarea {
+		height: 160px;
+	}
+	label {
+		margin-top: 7px;
+		margin-bottom: 7px;
+		.ts(1px 1px 1px #fff);
+		// &[required="required"] {
+		// }
+	}
+	.required {
+		position: relative;
+		&:after {
+			left: -10px;
+			top: 5px;
+			position: absolute;
+			color: red;
+			content: " * ";
+			display: inline-block;
+		}
+	}
+}
+
+#informations {
+	line-height: 1.8;
+	min-height: 387px;
+	.b_bottom {
+		border-bottom: 1px solid @c;
+		padding-bottom: 10px;
+	}
+	.mtitle {
+		font-size: 20px;
+		font-family: casa;
+		font-weight: bold;
+		margin-top: 10px;
+	}
+
+}
+#social {
+	ul {
+		li {
+			float: right;
+			display: block;
+			margin-right: 7px;
+			text-align: center;
+			a i {
+				.br(50%);
+				.size(40px);
+				display: block;
+				color: white;
+				font-size: 18px;
+				background-clip: content-box;
+				padding: 2px;
+				line-height: 2;
+			}
+		}
+	}
+}
+.facebook a i{
+	 background-color: @Facebook; border: 1px solid fade(@Facebook, 30%); 
+	 &:hover {
+	 	border: 1px solid @Facebook;
+	 }
+}
+.twitter a i{
+	 background-color: @Twitter; border: 1px solid fade(@Twitter, 30%);
+	 &:hover {
+	 	border: 1px solid @Twitter;
+	 }
+}
+.instagram a i{
+	 background-color: @Instagram; border: 1px solid fade(@Instagram, 30%);
+	 &:hover {
+	 	border: 1px solid @Instagram;
+	 }
+}
+.google a i{
+	 background-color: @Google; border: 1px solid fade(@Google, 30%);
+	 &:hover {
+	 	border: 1px solid @Google;
+	 }
+}
+.whatsapp a i{
+	 background-color: @Whatsapp; border: 1px solid fade(@Whatsapp, 30%);
+	 &:hover {
+	 	border: 1px solid @Whatsapp;
+	 }
+}
+.email a i{
+	 background-color: #5BC1AA; border: 1px solid fade(#5BC1AA, 30%);
+	 &:hover {
+	 	border: 1px solid #5BC1AA;
+	 }
+}
+.pinterst a i{
+	 background-color: @Pinterest; border: 1px solid fade(@Pinterest, 30%);
+	 &:hover {
+	 	border: 1px solid @Pinterest;
+	 }
+}
+.snapchat a i{
+	 background-color: #E9E022; border: 1px solid fade(#E9E022, 30%);
+	 &:hover {
+	 	border: 1px solid #E9E022;
+	 }
+}
+
+#map_wrap {
+	// display: none;
+	margin-top: 20px;
+	height: 260px;
+	padding: 5px;
+	background-color: #fff;
+	overflow: hidden;
+	.bs(0 0 10px -3px #333);
+}

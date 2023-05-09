@@ -1,0 +1,129 @@
+@lightgreen: #55CA91;
+table {
+	width: 100%;
+	background-color: #f9f9f9;
+	line-height: 28px;
+	margin: 15px 0;
+	thead {
+		background-color: @lightgreen;
+		color: white;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	td {
+		border: 1px solid @e;
+		padding: 3px 10px 5px;
+		font-size: 14px;
+	}
+}
+.food_table {
+	background: url(../img/table.png) no-repeat;
+	height: 85px;
+	background-size: cover;
+	margin-bottom: 20px;
+	font-family: casa;
+}
+#cart_page {
+	li {
+		margin-top: 20px;
+		margin-left: 40px;
+		i {
+			margin-left: 5px;
+		}
+	}
+}
+#factor_wrap {
+	font-family: casa;
+	h2 {
+		font-size: 20px;
+		font-weight: bold;
+		color: @9;
+		img {
+			margin-left: 5px;
+			vertical-align: middle;
+		}
+	}
+}
+.add , .remove {
+	.br(3px);
+	padding: 3px;
+	text-align: center;
+	width: 19px;
+	font-size: 14px;
+	display: inline-block;
+	color: white;
+	margin: 0 5px;
+	cursor: pointer;
+}
+.add {
+	background-color: @lightgreen;
+}
+.remove {
+	background-color: @red;
+}
+
+.countwrap {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-khtml-user-select: none;
+}
+.gray_bg {
+	margin: 10px 0; 
+	padding: 15px;
+	background-color: @e;
+}
+#peyment_form {
+	font-family: casa;
+	input[type=radio] {
+		float: right;
+		display: none;
+		&:checked + label:after {
+			content: "";
+			position: absolute;
+			top: 5px;
+			right: -25px;
+			.br(50%);
+			.size(7px);
+			background-color: @red;
+		}
+	}
+	input[type=radio] + label{
+		float: right;
+		margin-left: 10px;
+		position: relative;
+		margin-right: 30px;
+		&:before {
+			.size(15px);
+			content: "";
+			top: 0;
+			right: -30px;
+			position: absolute;
+			.br(50%);
+			border: 1px solid @c;
+			background-color: @e;
+			.bs(0 -3px 3px -2px #666 inset);
+		}
+	}
+}
+
+#price_wrap {
+	border: 1px solid @lightgreen;
+	font-family: casa;
+	margin-bottom: 20px;
+	.br(5px);
+	div {
+		padding: 15px;
+		font-size: 18px;
+		&:last-child {
+			font-size: 20px;
+			background-color: lighten(@lightgreen, 35%);
+			border-top: 1px solid @lightgreen;
+		}
+	}
+	.green {
+		font-weight: bold;
+	}
+}

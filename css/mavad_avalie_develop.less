@@ -1,0 +1,56 @@
+.ingredients {
+	line-height: 26px;
+	margin-bottom: 40px;
+	direction: rtl;
+	text-align: right;
+	.imgwrap {
+		border: 1px solid @c;
+		.br(2px);
+		.bs(0 9px 3px -3px rgba(0,0,0,.15));
+		img {
+			border: 8px solid white;
+			.br(3px);
+		}
+	}
+	.more {
+		display: block;
+		border: 1px solid @c;
+		background-color: @f1;
+		padding: 6px 10px;
+		margin-top: 10px;
+		.br(2px);
+		text-align: center;
+		&:hover {
+			background-color: @c;
+			color: inherit;
+		}
+	}
+	h3 {
+		font-family: casa;
+		font-weight: bold;
+		font-size: 22px;
+		margin-bottom: 10px;
+	}
+}
+#ingredients_slider {
+	margin-bottom: 20px;
+}
+
+.flex-control-paging {
+
+	li {
+		a {
+			.size(13px);
+			.br(50%);
+			display: block;
+			background: #fff;
+			border: 1px solid @brown;
+			cursor: pointer;
+			text-indent: -9999px;
+			&.flex-active {
+				background: @brown;
+				cursor: default;
+			}
+		}
+	}
+}

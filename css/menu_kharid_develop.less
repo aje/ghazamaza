@@ -1,0 +1,167 @@
+#buyfood {
+	background-image: url(../img/table_buy.png);
+	
+	ul {
+		margin: 0 10%;
+	}
+	li {
+		float: right;
+		width: 24%;
+		text-align: center;
+		font-weight: bold;
+		margin-top: 30px;
+		color: #333;
+		a:hover , a:active {
+			.arrowbox(down, 9px, white );
+			background-color: transparent;
+			opacity: 1;
+		}
+	}
+}
+
+#menu_kharid {
+	h3 {
+		// margin: -30px;
+		background-color: #EBE5D8;
+		position: absolute;
+		top: 20px;
+		left: 0;
+		right: 0;
+		width: 280px;
+		margin: 0 auto;
+
+	}
+	.foods {
+		padding-top: 30px;
+		border-top: 1px solid @9;
+		figure {
+			margin-bottom: 30px;
+		}
+	}
+	section {
+		position: relative;
+		padding-top: 35px;
+	}
+}
+.sidebox {
+	background-color: #fff;
+	border: 1px solid @c;
+	.bs(0 1px 3px -1px rgba(0,0,0,0.3));
+	.br(4px);	
+	margin-bottom: 20px;
+}
+#mini_cart {
+	h3 {
+		font-family: casa;
+		font-weight: bold;
+		border-bottom: 1px solid @c;
+		padding: 10px;
+		margin-bottom: 15px;
+		font-size: 20px;
+		img {
+			vertical-align: middle;
+			margin-left: 10px;
+		}
+	}
+}
+#cartlist {
+	padding: 0 10px 20px;
+	figure {
+		.cl;
+		height: 55px;
+		background-color: @e;
+		font-family: casa;
+		position: relative;
+		margin-bottom: 10px;
+		.imgwrap {
+			float: right;
+			.size(55px);
+			margin-left: 5px;
+		}
+		figcaption {
+			font-weight: bold;
+			margin-top: 7px;
+		}
+		.price {
+			margin-top: 10px;
+			font-size: 12px;
+		}
+		.counter {
+			position: absolute;
+			left: 6px;
+			bottom: 6px;
+		}
+		.close {
+			position: absolute;
+			top: 2px;
+			left: 4px;
+			color: @c;
+			cursor: pointer;.transition(all .2s ease);
+			&:hover  {
+				color: @6;
+			}
+		}
+	}
+}
+#delivery_time {
+	text-align: center;
+	margin-bottom: 10px;
+	color: lighten(@red, 15%);
+	font-family: casa;
+	font-weight: bold;
+}
+.gotocart {
+	display: block;
+	background-color: lighten(@green, 10%);
+	padding: 12px 0;
+	border-top: 3px dotted @6;
+	border-bottom: 2px solid @e;
+	font-family: casa;
+	font-weight: bold;
+	text-align: center;
+	font-size: 16px;
+	color: black;
+}
+
+#moreinfo {
+	padding: 10px;
+	text-align: center;
+	font-family: casa;
+	font-weight: bold;
+	color: @3;
+	div {
+		padding: 10px;
+		margin: 10px 0;
+	}
+	.green {
+		background-color: @green;
+		color: white;
+	}
+	.lightred {
+		color: @3;
+		background-color: lighten(@red, 45%);
+	}
+	.lightgreen {
+		background-color: lighten(@green, 40%);
+	}
+}
+
+#sideapp {
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 10px;
+	h2 {
+		font-family: casa;
+		font-weight: bold;
+		line-height: 18px;
+		margin-bottom: 20px;
+		.cl;
+		img {
+			float: right;
+			margin-left: 10px;
+		}
+	}
+	a {
+		.center;
+		margin-bottom: 5px;
+	}
+}

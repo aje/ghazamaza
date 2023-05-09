@@ -1,0 +1,48 @@
+.menu_foods {
+	.cl;
+	margin-bottom: 30px;
+	li {
+		position: relative;
+		margin-bottom: 15px;
+	}
+	.imgwrap {
+		.size(45px);
+		overflow: hidden;
+		border: 3px solid @e;
+		outline: 1px solid @c !important;
+		.bs(1px 1px 4px -1px #666);
+		vertical-align: middle;
+		float: right;
+		margin-left: 1px;
+		img {
+			border: 1px solid @c;
+		}
+		z-index: 10;
+		position: relative;
+	}
+	.line {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		bottom: 0;
+		margin: auto;
+		border-bottom: 2px dotted @c;
+		height: 2px;
+		z-index: 5;
+	}
+	.food_name, .food_price {
+		font-family: casa;
+		background-color: #fff;
+		z-index: 10;
+		position: relative;
+		margin-top: 15px;
+		padding: 0 10px;
+	}
+	.food_price {
+		float: left;
+	}
+	.food_name {
+		float: right;
+	}
+}

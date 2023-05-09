@@ -1,0 +1,136 @@
+@media only screen and (max-width: 768px) {
+	body.expand {
+		.translate(120px , 0 );
+		// .bs(-2px 0 5px rgba(0,0,0,0.6));
+		// z-index: 9999;
+	}
+	#main_nav ul {
+		max-width: 0;
+		overflow: hidden;
+	}
+	#main_nav ul.expand{
+		// max-height: 0;
+		max-width: 120px;
+		min-height: 100%;
+		position: absolute;
+		left: -120px;
+		top: 0;
+		background-color: #fff;
+		.bs(-2px 0 5px -2px rgba(0,0,0,0.6) inset);
+		// z-index: 999;
+		li {
+			float: none;
+			background-color: transparent;
+			height: 80px;
+			position: relative;
+			width: 120px;
+			margin: 0;
+			// border-bottom: 1px solid #eee;
+			.br(0);
+			&:first-child , &:last-child {
+				.br(0);
+				width: 120px;
+			}
+
+			&:hover, &.active {
+				background-color: #AAAAAA;
+				&:before {
+					border-top: 0;
+				}
+			}
+		}
+	}
+	.toggle_nav {
+		display: block;
+		float: left;
+		margin: 20px;
+		font-size: 2em;
+	}
+
+	#contact_tel {
+		width: 188px;
+	}
+
+	.box {
+		.content {
+			img {
+				float: none;
+				margin: 10px 0;
+				width: 100%;
+			}
+		}
+	}
+
+
+	// contact page 
+	#informations {
+		margin-top: 20px;
+	}
+	#contact_form_page {
+		fieldset.row {
+			label {
+				.col-7;
+			}
+			span {
+				.col-17;
+			}
+		}
+	}
+
+	// ghaza detail page
+	#food_slider {
+		.col-24;
+	}
+
+	.ingredients {
+		.more {
+			display: table;
+			margin: 20px auto;
+			float: none;
+		}
+	}
+
+	// sabade kharid
+	#peyment_form {
+		button {
+			display: table;
+			float: none;
+			margin: 0 auto;
+		}
+	}
+
+
+	// salamat develop
+	#health #social li:first-child {
+		width: 100%;
+		text-align: right;
+		padding-bottom: 10px;
+	}
+
+
+	// index 
+	#main_nav {
+	    height: 120px;
+	}
+
+	#seperate_line {
+		display: none;
+	}
+	#testimonial {
+		text-align: center;
+		
+	}
+
+	#testimonial #mini_comment {
+		position: relative;
+		padding: 20px 15px;
+		input {
+			margin: 10px 0;
+			width: 100%;
+			max-width: 100%;
+		}
+		button {
+			float: none;
+		}
+	}
+}

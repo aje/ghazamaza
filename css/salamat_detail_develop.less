@@ -1,0 +1,150 @@
+#health {
+	.details {
+		border-bottom: 1px solid @c;
+		margin-bottom: 10px;
+		padding-bottom: 5px;
+		color: @c;
+		font-size: 14px;
+		line-height: 24px;
+		ul li {
+			margin-left: 25px;
+			span {
+				font-family: casa;
+			}
+		}
+		time {
+			font-family: casa;
+			float: left;
+		}
+	}
+	ul {
+		li {
+			float: right;
+			i {
+				margin-left: 7px;
+				vertical-align: middle;
+			}
+		}
+	}
+	#social {
+		margin-bottom: 20px;
+		color: @9;
+		font-size: 14px;
+		li:first-child {
+			padding-top: 6px;
+		}
+		a {
+			font-family: yekan;
+		}
+		i {
+			display: inline-block;
+			.size(30px);
+			font-size: 12px;
+		}
+	}
+
+}
+
+#comments {
+	margin-bottom: 20px;
+	.imgwrap {
+		border: 1px solid @c;
+		.size(70px);
+		.br(3px);
+		.right;
+		img {
+		.size(70px);
+			border: 5px solid @e;
+			.br(3px);
+		}
+	}
+	.comment {
+		padding-right: 80px;
+		line-height: 24px;
+		h3 {
+			color: #000;
+			font-size: 22px;
+			margin-bottom: 10px;
+		}
+		time {
+			font-size: 14px;
+			color: @9;
+		}
+		.more {
+			.br(20px);
+			.bs(0 3px 2px @9);
+			.left;
+			font-family: yekan;
+			margin: 20px 0;
+			padding: 0px 15px 5px;
+			font-size: 14px;
+		}
+	}
+	article  article {
+		padding-right: 70px;
+	}
+
+}
+
+#related_article {
+	article {
+		padding-bottom: 0;
+		position: relative;
+		margin-bottom: 15px;
+	}
+	.imgwrap {
+		.size(90px,110px);
+		.right;
+		position: relative;
+		margin-left: 10px;
+		img {
+			border: 6px solid white;
+			position: relative;
+			.size(90px);
+		}
+		time {
+			width: 100%;
+			text-align: center;
+			position: absolute;
+			display: block;
+			font-family: casa;
+			font-size: 14px;
+			color: @9;
+		}
+	}
+	h3 {
+		font-family: casa;
+		font-weight: bold;
+		font-size: 18px;
+	}
+	.more {
+		position: absolute;
+		left: 15px;
+		bottom: 15px;
+	}
+}
+.bbtitle {
+	font-size: 25px;
+	color: darken(@brown, 20%);
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid @9;
+
+	position: relative;
+	&:before {
+		position: absolute;
+		bottom: -2px;
+		left: 0;
+		content: "";
+		width: 100%;
+		height: 1px;
+		background-color: rgba(255, 255, 255, 1);
+	}
+	i {
+		margin-left: 20px;
+		margin-right: 10px;
+		vertical-align: middle;
+	}
+}
+
+

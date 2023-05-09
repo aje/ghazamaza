@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="fa" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <title>غذا مذا</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" > -->
+    <meta http-equiv="X-UA-Compatible" content="IE=8">
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if lt IE 9]>        
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Style -->
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <!-- Less -->
+    <link rel="stylesheet/less" type="text/css" href="css/style.less"> 
+    <script src="js/less-1.7.0.min.js" type="text/javascript"></script>
+</head>
+<body id="top">
+	<div class="md-modal md-effect-10" id="modal-9">
+		<div class="md-content">
+			<div class="md-close">x</div>
+			<form action="#" id="codenegar_login_form" method="get" class="codenegar_form">
+				<p>اگر قبلا ثبت نام نکرده اید، برای ثبت نام <a href="#" class="violet">اینجا کلیک کنید</a></p>
+				<!-- <h3 class="codenegar_login_modal">ورود به پلانکس</h3> -->
+				<div>
+					<label for="codenegar_fname" class="col-6 cols-24 required">ایمیل :</label>
+					<input type="email" id="codenegar_fname" required="required" name="codenegar_fname" class="col-8">
+				</div>
+				<div>
+					<label for="codenegar_pass" class="col-6 cols-24 required">نام خانوادگی:</label>
+					<input type="password" id="codenegar_pass" required="required" name="codenegar_pass" class="col-8">
+				</div>
+				<div>
+					<label for="codenegar_captcha_pic" class="col-6 cols-24 ">تصویر امنیتی:</label>
+					<img src="" style="height:30px" class="col-4">
+					<a href="#" class="violet">اگر تصویر واضح نیست برای ایجاد تصویر جدید کلیک کنید.</a>
+				</div>
+				<div>
+					<label for="codenegar_captcha" class="col-10 required">عبارت موجود در تصویر بالا را عینا وارد کنید:</label>
+					<input type="text" id="codenegar_captcha" required="required" name="codenegar_captcha" class="col-4">
+				</div>
+				<div class="send">
+					<input type="submit" value="ورود" class="btn violet">
+				</div>
+				<p><a href="#" class="violet">اگر کلمه عبور خود را فراموش کرده اید کلیک کنید.</a></p>
+			</form>
+		</div>
+	</div>
+    <header id="main_header" class="home_page">
+        <h1 class="vh">غذا مذا</h1>
+    	<div class="container">
+	        <div class="signin left">
+	            <a class="btn yellow">
+		        	<i class="fa-user"></i>
+	                ثبت اشتراک
+	            </a>
+		        <a href="#" class="btn md-trigger violet" data-modal="modal-9">
+		        	<i class="fa-key"></i>
+	                وارد شوید
+	            </a>
+            </div>
+	        <div class="logo">
+	        	<a href="#">
+		        	<img src="img/logo.png" title="رستوران غذا مذا" alt="رستوران غذا مذا">
+	        	</a>
+	        </div>
+	        <nav id="main_nav">
+		        <a href="#" class="toggle_nav"><i class="fa-bars"></i></a>
+	        	<h2 class="vh">Main Navigation</h2>
+	        	<ul>
+	        		<li><a href="#"><img src="img/nav/home.png" alt=""><span>خانه</span></a> </li>
+	        		<li><a href="#"><img src="img/nav/plate.png" alt=""><span>منوی غذا</span></a> </li>
+	        		<li><a href="#"><img src="img/nav/basket.png" alt=""><span>سفارش اینترنتی</span></a> </li>
+	        		<li><a href="#"><img src="img/nav/heart.png" alt=""><span>سلامتی</span></a> </li>
+	        		<li class="active"><a href="#"><img src="img/nav/meet.png" alt=""><span>مواد اولیه</span></a> </li>
+	        		<li><a href="#"><img src="img/nav/mail.png" alt=""><span>تماس با ما</span></a> </li>
+	        		<li><a href="#"><img src="img/nav/about.png" alt=""><span>درباره ما</span></a> </li>
+	        	</ul>
+	        </nav>
+
+	        <div id="home_slider">
+	        	<div class="sliderbg"></div>
+	        	<div class="flexslider">
+	        		<ul class="slides">
+	        			<li><img src="img/slider/5.jpg" alt=""></li>
+	        			<li><img src="img/slider/6.jpg" alt=""></li>
+	        			<li><img src="img/slider/7.jpg" alt=""></li>
+	        		</ul>
+	        	</div>
+	        </div>
+        </div> <!-- end of container -->
+    </header>
+
+    <main>
+    	<div class="container">
+	    	<article id="app" class="title" >
+	    		<div class="cl">
+		    		<div class="col-16">
+		    			<img id="ghazamazaicon" src="img/icon.png" alt="غذامذا">
+			    		<h2>با اپلیکیشن <span class="red">غذامذا</span> هر لحظه و هر مکان بدون نیاز به اینترنت سفارش خود را ثبت کنید.</h2>
+			    		<a href="#"><img src="img/bazar.png" alt="دانلود از بازار"></a>
+			    		<a href="#"><img src="img/direct.png" alt="دانلود مستقیم"></a>
+			    	</div>
+			    	<div class="col-8"><img src="img/phone.png" alt=""></div>
+				</div>
+	    	</article> <!-- end of app -->
+
+	    	<section id="popular">
+	    		<!-- <h2 class="title">غذامذا های پرطرفدار هفته</h2> -->
+				<!-- ul.row>(li.col-6>figure>((.imgwrap>img[src=img/content.png])+(figcaption>(h3{چلوجوجه با استخوان}+.price+a>img[src="img/buy.png"]))))*4 -->
+				<!-- <div id="popular_slider" class="flexslider foods">
+					<ul class="slides">
+						<li>
+							<figure>
+								<div class="imgwrap"><img src="img/content.png" alt="چلوجوجه با استخوان"></div>
+								<figcaption>
+									<h3>چلوجوجه با استخوان</h3>
+									<div class="price"><span>تومان</span> 12000</div>
+									<a href=""><img src="img/buy.png" alt=""></a>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<div class="imgwrap"><img src="img/content.png" alt="چلوجوجه با استخوان"></div>
+								<figcaption>
+									<h3>چلوجوجه با استخوان</h3>
+									<div class="price"><span>تومان</span> 12000</div>
+									<a href=""><img src="img/buy.png" alt=""></a>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<div class="imgwrap"><img src="img/content.png" alt="چلوجوجه با استخوان"></div>
+								<figcaption>
+									<h3>چلوجوجه با استخوان</h3>
+									<div class="price"><span>تومان</span> 12000</div>
+									<a href=""><img src="img/buy.png" alt=""></a>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<div class="imgwrap"><img src="img/content.png" alt="چلوجوجه با استخوان"></div>
+								<figcaption>
+									<h3>چلوجوجه با استخوان</h3>
+									<div class="price"><span>تومان</span> 12000</div>
+									<a href=""><img src="img/buy.png" alt=""></a>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<div class="imgwrap"><img src="img/content.png" alt="چلوجوجه با استخوان"></div>
+								<figcaption>
+									<h3>چلوجوجه با استخوان</h3>
+									<div class="price"><span>تومان</span> 12000</div>
+									<a href=""><img src="img/buy.png" alt=""></a>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<div class="imgwrap"><img src="img/content.png" alt="چلوجوجه با استخوان"></div>
+								<figcaption>
+									<h3>چلوجوجه با استخوان</h3>
+									<div class="price"><span>تومان</span> 12000</div>
+									<a href=""><img src="img/buy.png" alt=""></a>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<div class="imgwrap"><img src="img/content.png" alt="چلوجوجه با استخوان"></div>
+								<figcaption>
+									<h3>چلوجوجه با استخوان</h3>
+									<div class="price"><span>تومان</span> 12000</div>
+									<a href=""><img src="img/buy.png" alt=""></a>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<div class="imgwrap"><img src="img/content.png" alt="چلوجوجه با استخوان"></div>
+								<figcaption>
+									<h3>چلوجوجه با استخوان</h3>
+									<div class="price"><span>تومان</span> 12000</div>
+									<a href=""><img src="img/buy.png" alt=""></a>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<div class="imgwrap"><img src="img/content.png" alt="چلوجوجه با استخوان"></div>
+								<figcaption>
+									<h3>چلوجوجه با استخوان</h3>
+									<div class="price"><span>تومان</span> 12000</div>
+									<a href=""><img src="img/buy.png" alt=""></a>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<div class="imgwrap"><img src="img/content.png" alt="چلوجوجه با استخوان"></div>
+								<figcaption>
+									<h3>چلوجوجه با استخوان</h3>
+									<div class="price"><span>تومان</span> 12000</div>
+									<a href=""><img src="img/buy.png" alt=""></a>
+								</figcaption>
+							</figure>
+						</li>
+					</ul>
+				</div> -->
+				
+				<div class="container">
+					<a href="#" id="menulink"><img src="img/menu.png" alt=""></a>
+				</div>
+				<a href="#" id="enter_cart"></a>
+	    	</section> <!-- end op popular -->
+		</div> <!-- end of container -->
+		<div id="worktime"></div>
+
+		<div class="container" id="homepage_articles">			
+			<div class="col-1"></div>
+			<div class="col-8" id="more_article">
+		    	<article>
+	    			<h3 class="nowrap"><a href="#">تسنفتاده از نان ایرانی</a></h3>
+	    			<div class="imgwrap"><img src="img/content.jpg" alt="استفاده از نان ایرانی"></div>
+	    			<p>مواد تشکیل دهنده این غذا از بهترین گوشت گوسفندی به همراه مرغوبترین برنج ایرانی است که    مواد تشکیل دهنده این غذا از بهترین گوشت گوسفندی به همراه مرغوبترین برنج ایرانی 
+
+	    			است </p>
+	    			<a href="#" class="more"><img src="img/more.png" alt="بیشتر بخوانید"></a>
+	    		</article>
+			</div>
+			<div class="col-1" id="seperate_line"></div>
+			<div class="col-13" id="related_article">
+				<ul>
+					<li>
+						<article class="cl">
+							<div class="imgwrap">
+								<img src="img/content.jpg" alt="استفاده از نان ایرانی">
+								<time datatime="1393-05-25"> 1393/25/58</time>
+							</div>
+							<h3>خوراکی های موثر برای تقویت حافظه</h3>
+							<p> کلم بروکلی، گل کلم و کلم فندقی سرشار از ماده مغذی با نام کولین می‌باشند. این ماده برای حافظه و سلامت مغز ضروری می‌باشد. کولین پیش در آمد </p>
+							<a href="#" class="more left">بیشتر بخوانید <i class="fa-arrow-left"></i></a>
+						</article>					
+					</li>
+					<li>
+						<article class="cl">
+							<div class="imgwrap">
+								<img src="img/content.jpg" alt="استفاده از نان ایرانی">
+								<time datatime="1393-05-25"> 1393/25/58</time>
+							</div>
+							<h3>خوراکی های موثر برای تقویت حافظه</h3>
+							<p> کلم بروکلی، گل کلم و کلم فندقی سرشار از ماده مغذی با نام کولین می‌باشند. این ماده برای حافظه و سلامت مغز ضروری می‌باشد. کولین پیش در آمد </p>
+							<a href="#" class="more left">بیشتر بخوانید <i class="fa-arrow-left"></i></a>
+						</article>					
+					</li>
+					<li>
+						<article class="cl">
+							<div class="imgwrap">
+								<img src="img/content.jpg" alt="استفاده از نان ایرانی">
+								<time datatime="1393-05-25"> 1393/25/58</time>
+							</div>
+							<h3>خوراکی های موثر برای تقویت حافظه</h3>
+							<p> کلم بروکلی، گل کلم و کلم فندقی سرشار از ماده مغذی با نام کولین می‌باشند. این ماده برای حافظه و سلامت مغز ضروری می‌باشد. کولین پیش در آمد </p>
+							<a href="#" class="more left">بیشتر بخوانید <i class="fa-arrow-left"></i></a>
+						</article>					
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+		<article id="testimonial">
+			<div class="container">
+				<!-- <div class="col-16"> -->
+					<i class="fa-comment"></i> 
+					<span class="testi">اپلیکیشن غذامذا خیلی خوبه من همیشه ازش برای سفارش غذا استفاده میکنم</span>
+				<!-- </div> -->
+				<form action="#" id="mini_comment">
+					<button id="comment_btn" class="left">ثبت نظر</button>
+					<input type="text" name="testimonial" class="left" placeholder="نظر بگذارید">
+				</form>
+			</div>
+		</article>
+
+    </main>
+
+
+    <footer id="main_footer">
+    	<h2 class="vh">main footer</h2>
+    	<div class="container">
+	    	<div class="col-8">
+				<h3><img src="img/footer/contact-us-footer.png" alt="تماس با ما"> تماس با ما</h3>
+				<form action="#" id="contact_us_form">
+					<input type="text" id="name_input" name="name" placeholder="نام و نام خانوادگی">
+					<input type="email" id="email_input" name="name" placeholder="پست الکترونیک">
+					<textarea name="content" id="content"></textarea>
+					<button>
+						<img src="img/footer/send-btn.png" alt="ارسال پیام">
+					</button>
+				</form>
+	    	</div>
+	    	<div class="col-8">
+	    		<div>
+		    		<h3 class="tac">ارتباط با ما</h3>
+		    		<div id="contact_tel">
+		    			<a href="tel:05136050449">051-36050449</a>
+		    		</div>
+	    		</div>
+	    		<div id="register_footer">
+	    			<h3 class="tac"><img src="img/footer/plus.png" alt="">ثبت اشتراک</h3>
+	    			<p>
+	    				برای ثبت اشتراک اینترنتی،  اپلیکیشن همراه و اشتراک تلفنی غذامذا از کلید زیر استفاده کنید 
+	    			</p>
+	    			<a href="#"><img src="img/footer/register.png" alt="ثبت اشتراک غذا مذا"></a>
+	    		</div>
+
+	    	</div>
+	    	<div class="col-8">
+	    		<h3><img src="img/footer/social.png" alt="شبکه های اجتماعی غذامذا"> غذامذا در شبکه های اجتماعی</h3>
+	    		<div id="social_footer">
+	    			<a href="#"><img src="img/footer/instagram.png" alt=""></a>
+	    			<a href="#"><img src="img/footer/facebook.png" alt=""></a>
+	    			<a href="#"><img src="img/footer/twitter.png" alt=""></a>
+	    			<a href="#"><img src="img/footer/viber.png" alt=""></a>
+	    			<a href="#"><img src="img/footer/whatsapp.png" alt=""></a>
+	    			<a href="#"><img src="img/footer/four.png" alt=""></a>
+	    			<a href="#"><img src="img/footer/g+.png" alt=""></a>
+	    		</div>
+	    		<div id="links_footer">
+	    			<h3><img src="img/footer/links.png" alt="لینکهای مفید غذامذا"> لینک های مفید</h3>
+	    			<ul>
+	    				<li><a href="#">وبسایت کجاخوبه</a></li>
+	    				<li><a href="#">اولین اپلیکیشن سفارش غذا</a></li>
+	    				<li><a href="#">شرکت همراه افزار دایا</a></li>
+	    				<li><a href="#">اولین وبسایت تخصصی طراحی رابط کاربری</a></li>
+	    				<li><a href="#">وبسایت گارسون</a></li>
+	    				<li><a href="#">وبسایت شخصی تیموری</a></li>
+	    			</ul>
+	    		</div>
+	    	</div>
+    	</div>
+    	<div id="copyright_footer">
+    		<div class="container">
+	    		<small>© 2015 GhazaMaza.com. All rights reserved</small>
+    			
+    		</div>
+    	</div>
+    </footer>
+
+	<div class="md-overlay"></div><!-- the overlay element -->
+
+    <!-- js -->
+    <script type="text/javascript" src="js/modernizr.js"></script>
+    <script type="text/javascript">
+        Modernizr.load([
+        // {
+      //       load: [
+      //           "js/jquery-1.11.1.min.js",
+      //           "js/html5.js",
+      //           "js/css3-mediaqueries.js",
+      //           "js/jquery.sidr.min.js",
+      //           "js/chosen.min.js",
+      //           "js/nicescroll.min.js",
+      //           "js/jquery.flexslider-min.js",
+      //           "js/jquery.rateit.min.js"
+      //       ]
+        // },
+      {
+        test: Modernizr.mq('only all'),
+        nope: "js/respond.min.js",
+        nope: "js/html5shiv.min.js",
+        nope: "js/css3-mediaqueries.js"
+      }
+        ]);
+    </script>
+
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+    <script type="text/javascript" src="js/civem-0.0.7.min.js"></script>
+    <script type="text/javascript" src="js/html5.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+   <!-- <script type="text/javascript" src="js/modalEffects.js"></script> -->
+    <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
